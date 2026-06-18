@@ -1,0 +1,54 @@
+Profile for realsense_D435_second as device /dev/video3
+
+v4l2-ctl --list-formats -d /dev/video3
+ioctl: VIDIOC_ENUM_FMT
+	Type: Video Capture
+
+	[0]: 'Z16 ' (16-bit Depth)
+[video4linux2,v4l2 @ 0x5c6888c42e40] Raw       :    gray16le :         16-bit Depth : 256x144 424x240 480x270 640x360 640x480 848x100 848x480 1280x720
+
+v4l2-ctl --list-formats-ext -d /dev/video3
+ioctl: VIDIOC_ENUM_FMT
+	Type: Video Capture
+
+	[0]: 'Z16 ' (16-bit Depth)
+		Size: Discrete 256x144
+			Interval: Discrete 0.003s (300.000 fps)
+			Interval: Discrete 0.011s (90.000 fps)
+		Size: Discrete 424x240
+			Interval: Discrete 0.011s (90.000 fps)
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+		Size: Discrete 480x270
+			Interval: Discrete 0.011s (90.000 fps)
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+		Size: Discrete 640x360
+			Interval: Discrete 0.011s (90.000 fps)
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+		Size: Discrete 640x480
+			Interval: Discrete 0.011s (90.000 fps)
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+		Size: Discrete 848x100
+			Interval: Discrete 0.003s (300.000 fps)
+			Interval: Discrete 0.010s (100.000 fps)
+		Size: Discrete 848x480
+			Interval: Discrete 0.011s (90.000 fps)
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+		Size: Discrete 1280x720
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)

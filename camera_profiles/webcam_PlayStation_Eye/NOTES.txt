@@ -1,0 +1,51 @@
+Profile for webcam_PlayStation_Eye as device /dev/video2
+
+v4l2-ctl --list-formats -d /dev/video2
+ioctl: VIDIOC_ENUM_FMT
+	Type: Video Capture
+
+	[0]: 'GRBG' (8-bit Bayer GRGR/BGBG)
+	[1]: 'YUYV' (YUYV 4:2:2)
+[video4linux2,v4l2 @ 0x61d12778bc00] Raw       : bayer_grbg8 : 8-bit Bayer GRGR/BGBG : 320x240 640x480
+[video4linux2,v4l2 @ 0x61d12778bc00] Raw       :     yuyv422 :           YUYV 4:2:2 : 320x240 640x480
+
+v4l2-ctl --list-formats-ext -d /dev/video2
+ioctl: VIDIOC_ENUM_FMT
+	Type: Video Capture
+
+	[0]: 'GRBG' (8-bit Bayer GRGR/BGBG)
+		Size: Discrete 320x240
+			Interval: Discrete 0.005s (187.000 fps)
+			Interval: Discrete 0.007s (150.000 fps)
+			Interval: Discrete 0.007s (137.000 fps)
+			Interval: Discrete 0.008s (125.000 fps)
+			Interval: Discrete 0.010s (100.000 fps)
+			Interval: Discrete 0.013s (75.000 fps)
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.020s (50.000 fps)
+			Interval: Discrete 0.027s (37.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 640x480
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.020s (50.000 fps)
+			Interval: Discrete 0.025s (40.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+	[1]: 'YUYV' (YUYV 4:2:2)
+		Size: Discrete 320x240
+			Interval: Discrete 0.005s (187.000 fps)
+			Interval: Discrete 0.007s (150.000 fps)
+			Interval: Discrete 0.007s (137.000 fps)
+			Interval: Discrete 0.008s (125.000 fps)
+			Interval: Discrete 0.010s (100.000 fps)
+			Interval: Discrete 0.013s (75.000 fps)
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.020s (50.000 fps)
+			Interval: Discrete 0.027s (37.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 640x480
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.020s (50.000 fps)
+			Interval: Discrete 0.025s (40.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)

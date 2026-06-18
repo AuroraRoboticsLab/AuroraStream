@@ -1,0 +1,55 @@
+Profile for realsense_D435_first as device /dev/video1
+
+v4l2-ctl --list-formats -d /dev/video1
+ioctl: VIDIOC_ENUM_FMT
+	Type: Video Capture
+
+	[0]: 'YUYV' (YUYV 4:2:2)
+[video4linux2,v4l2 @ 0x5b7be2a66e40] Raw       :     yuyv422 :           YUYV 4:2:2 : 320x180 320x240 424x240 640x360 640x480 848x480 960x540 1280x720 1920x1080
+
+v4l2-ctl --list-formats-ext -d /dev/video1
+ioctl: VIDIOC_ENUM_FMT
+	Type: Video Capture
+
+	[0]: 'YUYV' (YUYV 4:2:2)
+		Size: Discrete 320x180
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+		Size: Discrete 320x240
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+		Size: Discrete 424x240
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+		Size: Discrete 640x360
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+		Size: Discrete 640x480
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+		Size: Discrete 848x480
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+		Size: Discrete 960x540
+			Interval: Discrete 0.017s (60.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+		Size: Discrete 1280x720
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+		Size: Discrete 1920x1080
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)

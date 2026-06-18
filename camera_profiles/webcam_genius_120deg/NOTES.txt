@@ -1,0 +1,49 @@
+Profile for webcam_genius_120deg as device /dev/video2
+
+v4l2-ctl --list-formats -d /dev/video2
+ioctl: VIDIOC_ENUM_FMT
+	Type: Video Capture
+
+	[0]: 'YUYV' (YUYV 4:2:2)
+	[1]: 'MJPG' (Motion-JPEG, compressed)
+[video4linux2,v4l2 @ 0x5c4c038dac00] Raw       :     yuyv422 :           YUYV 4:2:2 : 640x480 160x120 176x144 320x240 352x288 800x600 1280x720 1920x1080
+[video4linux2,v4l2 @ 0x5c4c038dac00] Compressed:       mjpeg :          Motion-JPEG : 640x480 160x120 176x144 320x240 352x288 800x600 1280x720 1920x1080
+
+v4l2-ctl --list-formats-ext -d /dev/video2
+ioctl: VIDIOC_ENUM_FMT
+	Type: Video Capture
+
+	[0]: 'YUYV' (YUYV 4:2:2)
+		Size: Discrete 640x480
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 160x120
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 176x144
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 320x240
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 352x288
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 800x600
+			Interval: Discrete 0.100s (10.000 fps)
+		Size: Discrete 1280x720
+			Interval: Discrete 0.125s (8.000 fps)
+		Size: Discrete 1920x1080
+			Interval: Discrete 0.200s (5.000 fps)
+	[1]: 'MJPG' (Motion-JPEG, compressed)
+		Size: Discrete 640x480
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 160x120
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 176x144
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 320x240
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 352x288
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 800x600
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 1280x720
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 1920x1080
+			Interval: Discrete 0.033s (30.000 fps)

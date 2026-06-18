@@ -1,0 +1,32 @@
+Profile for webcam_microsoft_2MP as device /dev/video2
+
+v4l2-ctl --list-formats -d /dev/video2
+ioctl: VIDIOC_ENUM_FMT
+	Type: Video Capture
+
+	[0]: 'MJPG' (Motion-JPEG, compressed)
+[video4linux2,v4l2 @ 0x5d44fd80ac00] Compressed:       mjpeg :          Motion-JPEG : 352x288 1600x1200 1280x1024 1024x768 800x600 640x480 320x240 176x144 160x120
+
+v4l2-ctl --list-formats-ext -d /dev/video2
+ioctl: VIDIOC_ENUM_FMT
+	Type: Video Capture
+
+	[0]: 'MJPG' (Motion-JPEG, compressed)
+		Size: Discrete 352x288
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 1600x1200
+			Interval: Discrete 0.133s (7.500 fps)
+		Size: Discrete 1280x1024
+			Interval: Discrete 0.133s (7.500 fps)
+		Size: Discrete 1024x768
+			Interval: Discrete 0.133s (7.500 fps)
+		Size: Discrete 800x600
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 640x480
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 320x240
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 176x144
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 160x120
+			Interval: Discrete 0.033s (30.000 fps)
